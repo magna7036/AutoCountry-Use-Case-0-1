@@ -6,7 +6,9 @@ class CarFinder:
        for vehicle in self.allowed_vehicles:
            print(vehicle)
    def display_menu(self):
-       print("\n------ AutoCountry Vehicle Finder v0.1 ------")
+       print("********************************")
+       print("AutoCountry Vehicle Finder v0.1")
+       print("********************************")
        print("1. Print all Allowed Vehicles")
        print("2. Exit")
    def run(self):
